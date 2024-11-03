@@ -10,9 +10,9 @@
 - **Filter Tasks**: You can filter by pending, completed or all tasks.
 
 ## Technologies Used:
-- **HTML/CSS/JSX**:
-- **Node.js**: 
-- **React.js**: 
+- **HTML/CSS/JSX**
+- **Node.js** 
+- **React.js** 
 
 ## Installation:
 Make sure you have node.js installed!
