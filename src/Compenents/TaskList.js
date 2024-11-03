@@ -38,6 +38,15 @@ const Tasklist = ({name, templateTasks}) => {
         let lastId = getLastId()
         setTasks([...tasks, { id: lastId, title: title, desc: desc, completed: false }]);
         templateTasks = [...tasks, { id: lastId, title: title, desc: desc, completed: false }]
+        taskAlert(title)
+    }
+
+    /**
+     * Alerts the user that the task has been created 
+     */
+
+    function taskAlert(name) {
+        alert("Created the task with name: " + name)
     }
 
     /**
@@ -79,6 +88,8 @@ const Tasklist = ({name, templateTasks}) => {
         setTasks([...tasks])
     }
 
+
+
     return (
         <>
         <div className='list'>
@@ -93,10 +104,10 @@ const Tasklist = ({name, templateTasks}) => {
             <h3>Add task</h3>
 
             <label for="title">Title</label>
-            <input id="title" value={title} onChange={e => setTitle(e.target.value)} />
+            <input id="title" value={title} placeholder='Enter the name of task' onChange={e => setTitle(e.target.value)} />
             <br />
             <label for="desc">Description</label>
-            <input id="desc" value={desc} onChange={e => setDesc(e.target.value)} />
+            <input id="desc" value={desc} placeholder='Enter the description of task' onChange={e => setDesc(e.target.value)} />
             <br />
             <button className="myButton" onClick={addTask}>Add</button>
             <br />

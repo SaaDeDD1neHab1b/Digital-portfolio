@@ -62,5 +62,30 @@ body {
   text-align: center;
 }
 
+input {
+  background-color: rgb(49, 49, 49);
+  color: white;
+  border: 1px solid blue;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 1px 1px 10px 1px blue;
+  font-family: Arial;
+  font-size: 100%;
+}
+
+input::placeholder {
+  color: lightgray; 
+  font-size: 85%;
+}
+
+input:focus {
+  outline: none; 
+  border: 1px solid blue;
+  box-shadow: 0 0 5px blue;
+}
+
+
+
 
 
