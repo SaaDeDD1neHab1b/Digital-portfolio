@@ -7,17 +7,20 @@
 - **Add Tasks**: Users can easily add new tasks, specifying details such as title and description.
 - **Edit and Delete Tasks**: Allows users to modify or remove existing tasks, providing flexibility in list management.
 - **Completion Status**: Users can mark tasks as completed, helping to visualize progress.
-- **Data Persistence**: Utilizes local storage to ensure that tasks remain even after closing the application.
+- **Filter Tasks**: You can filter by pending, completed or all tasks.
 
 ## Technologies Used:
-- **HTML/CSS**: For the structure and styling of the application.
-- **JavaScript**: For interactive functionality and DOM manipulation.
-- **Frameworks/Libraries**: May include frameworks like React, depending on the specific implementation.
+- **HTML/CSS/JSX**:
+- **Node.js**: 
+- **React.js**: 
 
 ## Installation:
-To run the project locally, clone the repository and open the `index.html` file in your browser.
+Make sure you have node.js installed!
+
+To run the project locally, clone the repository and open the repo directory and execute `npm start` in your termnial.
+
 
 ```bash
 git clone https://github.com/SaadeddineHabib/To-Do-List_SHabib.git
 cd To-Do-List_SHabib
-open index.html
+npm start
