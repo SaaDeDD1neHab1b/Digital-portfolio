@@ -23,4 +23,5 @@ To run the project locally, clone the repository and open the repo directory and
 ```bash
 git clone https://github.com/SaadeddineHabib/To-Do-List_SHabib.git
 cd To-Do-List_SHabib
+npm install
 npm start
